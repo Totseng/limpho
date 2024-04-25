@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | LG Finance HR Solutions</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to an external stylesheet for your CSS -->
+</head>
+
+<body>
+    <header>
+        <img src="hr.jpg" alt="LG Finance HR Solutions Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <article>
+            <h2>Contact Us</h2>
+            <p>Have questions or ready to get started? Reach out to us using the form below:</p>
+            <form action="contact_form_handler.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </article>
+        <aside>
+            <h2>Contact Information</h2>
+            <p>Feel free to contact us via email or phone:</p>
+            <p>Email: hr@lgfinance.com<br>Phone: +1 (123) 456-7890</p>
+        </aside>
+    </section>
+
+    <footer>
+        <div id="footer">
+            <p>&copy; 2024 LG Finance HR Solutions. All rights reserved. | Designed by Lerato Chobokoane | Contact: hr@lgfinance.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
